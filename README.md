@@ -9,28 +9,6 @@ Validate CSV/Parquet datasets for ML labeling / ingestion pipelines using a decl
 - Pretty console summary
 - Dockerized CLI for reproducibility
 
-dataset-qa-tool/
-  README.md               # Project overview and usage instructions
-  pyproject.toml          # Project metadata, dependencies, and build config
-  Dockerfile              # Docker container setup
-  .gitignore              # Files/directories to ignore in Git
-
-  dataset_qa/             # Main application package
-    __init__.py           # Package version info
-    cli.py                # CLI entry point using argparse
-    config.py             # YAML schema loader & validation models
-    rules.py              # Core validation rules (regex, range, choice)
-    validator.py          # Validation engine with error tracking
-    report.py             # Report generation in CSV/JSON
-
-  configs/                # Example configuration files
-    example.yaml          # A full YAML schema with all supported rules
-
-  examples/               # Sample datasets to test the validator
-    data.csv              # Sample data with intentional errors
-
-  tests/                  # Unit tests
-    test_validator.py     # Tests for validation logic
 
 ## Install (local)
 ```bash
