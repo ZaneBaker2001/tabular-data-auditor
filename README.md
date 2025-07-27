@@ -31,6 +31,22 @@ pip install -e .
 - Found in examples/data.csv
 - Demonstrates malformed email, null value in required column, score out of range, invalid category not in choices, and duplicate primary key (id)
 
+## Example Output 
+
+Validating data.csv against configs/example.yaml ...
+✔ Columns present: 4/4
+✖ 4 rows failed validation
+
+Top error types:
+ - regex_mismatch (email): 1
+ - out_of_range (score): 1
+ - null_not_allowed (email): 1
+ - not_in_choices (label): 1
+ - not_unique (id): 1
+
+JSON report written to: report.json
+CSV  report written to: report.csv
+
 ## File Locations and Descriptions
 ```bash
 tabular-data-auditor/
