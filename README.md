@@ -35,7 +35,7 @@ tabular-data-auditor/
     test_validator.py     # Tests for validation logic
 
 
-Local Install
+Local Install Instructions: 
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -e .
