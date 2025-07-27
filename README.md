@@ -10,7 +10,7 @@ Validate CSV/Parquet datasets for ML labeling / ingestion pipelines using a decl
 - Dockerized CLI for reproducibility
 
 
-## Local Install Instructions: 
+## Local Install: 
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -e .
