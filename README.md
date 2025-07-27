@@ -44,8 +44,8 @@ Top error types:
  - not_in_choices (label): 1
  - not_unique (id): 1
 
-JSON report written to: report.json
-CSV  report written to: report.csv
+- JSON report written to: report.json
+- CSV  report written to: report.csv
 
 ## File Locations and Descriptions
 ```bash
