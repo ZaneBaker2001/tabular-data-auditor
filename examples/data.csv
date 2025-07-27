@@ -1,0 +1,7 @@
+id,email,label,score
+1,alice@example.com,cat,0.82
+2,bob@domain,dog,0.67
+3,carol@example.org,bird,1.05
+4,,cat,0.9
+5,dave@example.com,lion,0.3
+2,duplicate@example.com,dog,0.6
