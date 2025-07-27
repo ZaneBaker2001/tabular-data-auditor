@@ -22,8 +22,8 @@ pip install -e .
   --csv-report  report.csv
 
 ## Run with Docker
-docker build -t dataset-qa:latest .
-docker run --rm -v $(pwd):/work dataset-qa:latest \
+- docker build -t dataset-qa:latest .
+- docker run --rm -v $(pwd):/work dataset-qa:latest \
   python -m dataset_qa validate /work/examples/data.csv /work/configs/example.yaml \
   --json-report /work/report.json --csv-report /work/report.csv
 
