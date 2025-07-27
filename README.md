@@ -9,8 +9,9 @@ Validate CSV/Parquet datasets for ML labeling / ingestion pipelines using a decl
 - Pretty console summary
 - Dockerized CLI for reproducibility
 
-## tabular-data-auditor/
+## File Locations and Descriptions
 ```bash
+tabular-data-auditor/
   README.md               # Project overview and usage instructions
   pyproject.toml          # Project metadata, dependencies, and build config
   Dockerfile              # Docker container setup
