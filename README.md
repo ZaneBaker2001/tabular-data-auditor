@@ -47,7 +47,7 @@ Top error types:
   JSON report written to: report.json 
   CSV  report written to: report.csv
 
-## File Locations and Descriptions
+## Directory Structure
 ```bash
 tabular-data-auditor/
   README.md               # Project overview and usage instructions
