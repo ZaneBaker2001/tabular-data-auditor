@@ -15,6 +15,12 @@ python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -e .
 
+## Quick Start
+# Validate a CSV against the example config
+python -m dataset_qa validate examples/data.csv configs/example.yaml \
+  --json-report report.json \
+  --csv-report  report.csv
+
 ## File Locations and Descriptions
 ```bash
 tabular-data-auditor/
