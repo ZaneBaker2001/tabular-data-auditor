@@ -1,0 +1,27 @@
+dataset:
+  primary_key: ["id"]
+  datetime_formats: ["%Y-%m-%d", "%Y-%m-%d %H:%M:%S"]
+
+columns:
+  - column: id
+    dtype: int
+    required: true
+    unique: true
+    allow_null: false
+
+  - column: email
+    dtype: string
+    required: true
+    allow_null: false
+    regex: "^[^@\n]+@[^@\n]+\.[^@\n]+$"
+
+  - column: label
+    dtype: string
+    choices: [cat, dog, bird]
+    allow_null: false
+
+  - column: score
+    dtype: float
+    min: 0
+    max: 1
+    allow_null: false
