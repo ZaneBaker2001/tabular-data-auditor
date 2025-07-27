@@ -27,6 +27,10 @@ pip install -e .
   python -m dataset_qa validate /work/examples/data.csv /work/configs/example.yaml \
   --json-report /work/report.json --csv-report /work/report.csv
 
+## Sample Data
+- Found in examples/data.csv
+- Demonstrates malformed email, null value in required column, score out of range, invalid category not in choices, and duplicate primary key (id)
+
 ## File Locations and Descriptions
 ```bash
 tabular-data-auditor/
