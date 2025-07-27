@@ -34,8 +34,8 @@ pip install -e .
 ## Example Output 
 
 Validating data.csv against configs/example.yaml ...
-✔ Columns present: 4/4
-✖ 4 rows failed validation
+- ✔ Columns present: 4/4
+- ✖ 4 rows failed validation
 
 Top error types:
  - regex_mismatch (email): 1
