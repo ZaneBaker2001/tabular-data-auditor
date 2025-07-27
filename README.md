@@ -9,6 +9,12 @@ Validate CSV/Parquet datasets for ML labeling / ingestion pipelines using a decl
 - Pretty console summary
 - Dockerized CLI for reproducibility
 
+
+## Local Install Instructions: 
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -e .
+
 ## File Locations and Descriptions
 ```bash
 tabular-data-auditor/
@@ -35,7 +41,3 @@ tabular-data-auditor/
     test_validator.py     # Tests for validation logic
 
 
-Local Install Instructions: 
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-pip install -e .
