@@ -11,9 +11,11 @@ Validate CSV/Parquet datasets for ML labeling / ingestion pipelines using a decl
 
 
 ## Local Install: 
+```
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -e .
+```
 
 ## Quick Start
 - Validate a CSV against the example config
@@ -22,10 +24,12 @@ pip install -e .
   --csv-report  report.csv
 
 ## Run with Docker
+```
 - docker build -t dataset-qa:latest .
 - docker run --rm -v $(pwd):/work dataset-qa:latest \
   python -m dataset_qa validate /work/examples/data.csv /work/configs/example.yaml \
   --json-report /work/report.json --csv-report /work/report.csv
+```
 
 ## Sample Data
 - Found in examples/data.csv
@@ -73,5 +77,6 @@ tabular-data-auditor/
 
   tests/                  # Unit tests
     test_validator.py     # Tests for validation logic
+
 
 
